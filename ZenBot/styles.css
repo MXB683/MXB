@@ -1,0 +1,38 @@
+* {
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: large;
+  align-items: center;
+  text-align: center;
+  background-color: #081a58;
+  color: white;
+}
+
+.preffered-button {
+  background-color: #7289DA;
+  border: #5a73ce;
+  padding: .65rem 1rem;
+  border-radius: 5%;
+}
+
+.preffered-button:hover {
+  background-color: #5169c4;
+  cursor: pointer;
+}
+
+.non-preffered-button {
+  background-color: #ffffff;
+  border: #e6e6e6;
+  padding: .65rem 1rem;
+  border-radius: 5%;
+  color: black;
+}
+
+.non-preffered-button:hover {
+  background-color: #a8a8a8;
+  cursor: pointer;
+}
+
+img {
+  width: 200px;
+}

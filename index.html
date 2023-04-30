@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MXB | Home</title>
+    <link rel="shortcut icon" href="images/MXB logo circle.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="account/login.js" defer></script>
+    <script src="account/signup.js" defer></script>
+</head>
+<body>
+    <!-- © Copyright MXB. Do not ditribute! -->
+    <!-- All subject images/links are Copyright Free -->
+    <div class="container">
+      <nav class="nav-bar">
+          <img src="images/MXB logo circle.png" class="logo">
+          <a href="index.html" class="home nav-item current-page">HOME</a>
+          <a href="about.html" class="about nav-item">ABOUT</a>
+          <a href="media.html" class="media nav-item">MEDIA</a>
+      </nav>
+      <section class="content">
+        <h1 class="title">Log In</h1>
+        <br>
+        <div class="input-wrap">
+          <div class="login-form" style="display: contents; border-radius: 5px;">
+            <div class="login-form"><input type="text" placeholder="Username"></div>
+          </div>
+        </div>
+        <br>
+        <div class="input-wrap">
+          <div class="login-form" style="display: contents; border-radius: 5px;">
+            <div class="login-form"><input type="text" placeholder="Password"></div>
+          </div>
+        </div>
+        <br>
+        <div class="login-form" style="display: var(--login-info-incorrect);">
+          <div class="login-form"><red>Incorrect Username/Password</red></div>
+          <br>
+        </div>
+        <div class="login-form" style="display: contents;">
+          <div class="login-form">
+            <button>Log In</button>
+          </div>
+        </div>
+        <div style="display: flex; justify-content: center; padding-top: 10px;">
+          Don't have an account? <a href="signup.html" style="color: white; text-decoration: underline;">Sign Up!</a>
+        </div>
+      </section>
+      <footer class="footer">
+          <button class="border0">
+              <img src="images/light-theme.png" class="theme2" id="l-theme-btn">
+              <img src="images/dark-theme.png" class="theme" id="d-theme-btn">
+          </button>
+      </footer>
+    </div>
+    <!-- © Copyright MXB. Do not ditribute! -->
+</body>
+</html>
